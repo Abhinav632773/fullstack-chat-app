@@ -2,6 +2,29 @@
 
 A modern, real-time chat application built with React, Node.js, and Socket.IO, featuring a clean and responsive user interface.
 
+## Screenshots
+
+### Login Page
+- Clean, modern login form with email/password fields.
+- Call to action to join the community.
+
+### Profile Page
+- User can view and update their profile photo, name, and email.
+- Account status and member since information displayed.
+
+### Chat UI
+- Sidebar with user avatars and online status (green dot indicator).
+- Chat window with online/offline status, message bubbles, and image attachments.
+- Real-time updates for messages and online status.
+- Responsive design for desktop and mobile.
+
+![Login Page]![Screenshot 2025-05-21 211202](https://github.com/user-attachments/assets/749fd7a5-aba6-45a4-8f2b-81860e008c43)
+![Profile Page]![Screenshot 2025-05-21 211256](https://github.com/user-attachments/assets/20145e65-0ccc-495f-bfe4-145ac291898d)
+![Chat Offline]![Screenshot 2025-05-21 211326](https://github.com/user-attachments/assets/276fc502-caf1-4621-a520-cd22770dc513)
+![Chat Online]![Screenshot 2025-05-21 211742](https://github.com/user-attachments/assets/a55adac9-db74-4ad0-badf-f9ad03240199)
+![Image Attachment]![Screenshot 2025-05-21 211846](https://github.com/user-attachments/assets/731a610e-5232-49a3-9bd2-7e5a62f8628f)
+
+
 ## Features
 
 - Real-time messaging
@@ -9,8 +32,9 @@ A modern, real-time chat application built with React, Node.js, and Socket.IO, f
 - Responsive design
 - Modern UI with Tailwind CSS
 - Message history
-- Online user status
+- Online user status (green dot and "Online" text)
 - Typing indicators
+- Image attachments in chat
 
 ## Tech Stack
 
@@ -19,7 +43,6 @@ A modern, real-time chat application built with React, Node.js, and Socket.IO, f
 - Vite
 - Tailwind CSS
 - Socket.IO Client
-- ESLint for code quality
 
 ### Backend
 - Node.js
